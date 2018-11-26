@@ -1,4 +1,4 @@
-public class Report4 {
+/*public class Report4 {
     public static void main(String[] args) {
 
         try{
@@ -9,6 +9,13 @@ public class Report4 {
             System.out.println(e.getMessage());
             throw new NullPointerException("NullPointerExceptionが発生しました");
         }
+    }
+}*/
+
+public class Report4 {
+    public static void main(String[] args) {
+        String str = "百二十三";
+        int value = Integer.parseInt(str);
     }
 }
 
