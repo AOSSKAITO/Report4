@@ -7,7 +7,7 @@ public class Report4 {
 
         } catch (Exception e){
             System.out.println(e.getMessage());
-            throw new NullPointerException("0で割ったときの例外を発生させる");
+            throw new NullPointerException("NullPointerExceptionが発生しました");
         }
     }
 }
